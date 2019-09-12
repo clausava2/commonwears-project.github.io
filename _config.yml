@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "fluidware-project.github.io"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+title: "FluidWare: A novel paradigm for Large-Scale IoT Systems"
+description: "Fluidware: A novel paradigm for Large-Scale IoT Systems"
 
 defaults:
   - scope:
-      path: "" # an empty string here means all necessary files are in the project
+      path: ""
     values:
-      image: assets/img/triangle.png # seo tag
+      image: assets/img/triangle.png
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
