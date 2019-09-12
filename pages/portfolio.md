@@ -1,10 +1,8 @@
 --- 
 layout: page
-title : Portfolio 
-permalink: /portfolio/
-subtitle: "Projects I am working on" 
+title : Software 
+permalink: /software/
+subtitle: "Software and prototypes" 
 feature-img: "assets/img/pexels/computer.jpeg"
-tags: [Archive]
+tags: [Prototypes, Software]
 ---
-
-{% include portfolio.html %}
