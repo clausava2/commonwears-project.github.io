@@ -5,11 +5,62 @@ layout: default
 <div class="home">
   {% if site.theme_settings.header_text %}
   <div id="main" class="call-out"
-  style="background-image: url('{{ site.theme_settings.header_feature_image | relative_url }}')">
+    style="background-image: url('{{ site.theme_settings.header_feature_image | relative_url }}')">
     <h1> {{ site.theme_settings.header_text }} </h1>
   </div>
   {% endif %}
+</div>
+<div class="posts">
 
-  {% include blog.html %}
-    
+  <div class="post-teaser">
+
+    <span>
+      <header>
+        <h1>
+          <a aria-label="Project description">
+            Project description
+          </a>
+        </h1>
+        <div class="post-info">
+          <p class="meta">
+            PRIN 2019
+          </p>
+        </div>
+      </header>
+      <div class="excerpt">
+        <p>
+          The objective of the project is to develop a novel programming model for IoT services and applications,
+          and the associated supporting platform, engineering methodologies, and tools, to ease the development
+          of flexible and robust large-scale IoT services and applications.
+        </p>
+        <p>
+          In particular, starting from previous findings
+          in the areas field-based coordination, collective systems, stream computing
+          and aggregate computing, this project will address the complexity of building
+          modern, large-scale IoT systems, by a full-fledged engineering approach
+          revolving around a new notion of distributed programming.
+        </p>
+        <p>
+          The key innovative
+          idea of Fluidware is to abstract the devices of the IoT fabric as sources and
+          possibly digesters of flows of contextualized events (where events includes
+          those related to data production along with the associated data).
+        </p>
+        <p>
+          Accordingly,
+          programming services and applications implies declaratively specifying sets of
+          “funnel processes” to channel and direct such flows as a mean to coordinate
+          the activities of devices, and let the supporting platform automatically deploy
+          and properly distributed/replicate such processes.
+        </p>
+        <p>
+      </div>
+    </span>
+  </div>
+</div>
+</div>
+<div class="home">
+  <section class="post-content">
+    <!-- <span style="text-align: center"> -->
+  </section>
 </div>
