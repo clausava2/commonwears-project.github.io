@@ -5,9 +5,13 @@
 * Minimal proficiency with [git](https://learnxinyminutes.com/docs/git/)
 * Proficiency in [Markdown](https://learnxinyminutes.com/docs/markdown/)
 
-## Import
+## Procedure
 
 1. Clone the repository with `git@github.com:Fluidware-Project/fluidware-project.github.io.git`
+2. Edit the files you need to change, add those you want to add
+3. Use `git add` to track the changes you want to commit
+4. Use `git commit -m "A DECENT COMMIT MESSAGE HERE"` to actually commit
+5. Use `git push` to have it online and published in a few seconds.
 
 ## Editing
 
