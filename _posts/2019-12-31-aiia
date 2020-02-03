@@ -1,0 +1,28 @@
+---
+layout: post
+# Your title goes here
+title: "Case Studies for a New IoT Programming Paradigm: Fluidware"
+# List authors here as they appear in the paper
+authors: Stefano Mariani, Roberto Casadei, Fabrizio Fornari, Giancarlo Fortino, Danilo Pianini, Barbara Re, Wilma Russo, Claudio Savaglio, Mirko Viroli, and Franco Zambonelli
+# List keywords to get more visibility
+tags: [IoT, case studies]
+# Add the journal / proceedings
+journal: Proceedings of the 1st Workshop on Artificial Intelligence and Internet of Things co-located with the 18th International Conference of the Italian Association for Artificial Intelligence (AI*IA 2019), Rende (CS), Italy, November 22, 2019
+# Add the DOI
+# doi: 10.1145/1273445.1273458
+# Everithing written before <!--more--> will appear directly in the publications page
+excerpt_separator: <!--more-->
+---
+
+A number of scientific and technological advancements enabled turning the Internet of Things vision into reality. However, there is
+still a bottleneck in designing and developing IoT applications and services: each device has to be programmed individually, and services are
+deployed to specific devices. The Fluidware approach advocates that to
+truly scale and raise the level of abstraction a novel perspective is needed,
+focussing on device ensembles and dynamic allocation of resources. In
+this paper, we motivate the need for such a paradigm shift through three
+case studies emphasising a mismatch between state of art solutions and
+desired properties to achieve.
+
+<!--more-->
+
+[Full text](http://ceur-ws.org/Vol-2502/paper6.pdf)
