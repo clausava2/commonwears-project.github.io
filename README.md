@@ -35,3 +35,22 @@ If you want to write a different introduction, or you want to control what appea
 
 The example file should contain a decent guide inside.
 Please look at it.
+
+## Testing changes locally
+
+### Preparation
+
+1. Install `gem` and Ruby.
+  * Under windows you can use [this installer](https://rubyinstaller.org/)
+2. Install bundler and [Jekyll](https://jekyllrb.com/)
+  * `gem install bundler jekyll`
+
+### Generate and self-host the website
+
+Point the terminal inside the cloned repository (change directory).
+From the project root directory, run Jekyll via bundler as follows:
+``
+bundle exec jekyll serve
+``
+Now browse to [http://localhost:4000](http://localhost:4000).
+In case of changes, the website will get regenerated on every file saved.
